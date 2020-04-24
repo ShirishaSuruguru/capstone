@@ -1,0 +1,675 @@
+html , body{
+    height: 100%;
+}
+body{
+font-family: arial;
+margin: 0;
+text-align: center;
+}
+
+a{
+color:#00c59e;
+text-decoration: none
+}
+
+.container{
+/*text-align: left;*/
+min-height: 100%
+}
+
+.add-recpie form,.contact,.flex, .container{
+display: flex;
+flex-wrap: nowrap;flex-direction: row;
+}
+.recpie-flex{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content:space-around;
+}
+
+header{
+width:200px;
+background: #eee;
+padding: 25px;
+text-align: right
+}
+.nav-button{
+display: none;
+}
+header .logo{
+font-size: 20px;
+color:#333
+}
+
+nav ul{
+list-style: none;
+}
+ul li a:hover {
+    background-color: rgb(0,197,158,0.3);
+    color: #000;
+    border: none;
+    border-radius: 0px 20px 0px 20px;
+}
+nav li, nav li a{
+display:block;
+}
+
+nav li a{
+padding:10px;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+nav .active a{
+color:#333
+}
+
+footer{
+background: #00c59e;
+color:#fff;
+width:10px;
+text-align: center
+}
+
+
+.footer{
+width:auto;
+}
+.footer nav a,.footer nav li{
+display: inline-block;
+color:#fff
+}
+
+.middle{
+width: 100%;
+}
+
+.middle .slider img{
+width:100%;
+height: 400px;
+
+}
+a.logo img {
+    width: 100%;
+    height: 101px;
+}
+section {
+    margin-top: 15px;
+}
+.add-recpie,.recpie-details,.contact section, .recpies, .today-menu, article,footer{
+padding: 25px
+}
+.recpies aside{
+padding: 15px;
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+width: 33%;
+}
+
+.recpies aside b{
+display: block;
+padding: 15px
+}
+.recpies aside img{width: 100%}
+.recpies aside span{
+color:#888;
+font-size:12px
+}
+.member span {
+    display: block;
+}
+.recpies aside:hover{
+outline:solid 2px #00c59e;
+}
+#cat-banner{
+  background-image: url('img/1.jpg');
+  display: flex;
+    justify-content: center;
+}
+section#single-cat-sec {
+    width: 100%;
+}
+div#cat-banner h1 {
+      position: absolute;
+    display: inline-block;
+    top: 0;
+}
+div#cat-banner div {
+    position: absolute;
+    bottom: -110%;
+    width: 56%;
+    text-align: center;
+}
+.product img {
+    width: 95%;
+    height: 100%;
+    /* padding: 7px; */
+}
+.product span {
+    display: block;
+    font-weight: bold;
+    color: #00c59e;
+}
+
+/*About Page*/
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+        justify-content: center;
+}
+.member {
+    display: block;
+    width: 33%;
+    float: left;
+}
+.member a img {
+    height: 100%;
+    width: 330px;
+}
+/* contact page */
+section.slider {
+    background-image: url(img/10.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1#get-text {
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    width: 50%;
+    margin: 0px auto;
+    text-align: left;
+    font-size: 75px;
+    color: #fff;
+}
+/* services page */
+section.services-detail {
+    width: 100%;
+    height: 100%;
+
+}
+table tr:nth-child(even) {
+    background-color: rgb(0,0,0,0.2);
+}
+table th,table tr,table td {
+    border: 1px solid #ddd;
+}
+td.Contact-btn span {
+    display: block;
+    border: 1px solid #dfd;
+    width: 70px;
+    margin: 0px auto;
+    padding: 5px;
+    cursor: pointer;
+}
+section.contact section {
+    width: 100%;
+}
+section.contact section form {
+    width: 100%;
+}
+
+.ad
+article p{
+line-height: 28px
+}
+table tr th {
+    padding: 9px;
+}
+table{width: 90%;
+    border: solid 1px #ddd;
+    border-bottom-width: 0;
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+
+table thead td{
+background: #00c59e;
+color:#fff;
+}
+
+table td{padding: 15px;
+border: solid 1px #ddd
+}
+
+table .od{
+background: #f5f5f5
+}
+table .by{
+width:100px
+}
+
+table .img{
+width:50px
+}
+
+table .img img{
+width: 100%;
+}
+
+table .title span{
+display: block;
+color:#666;
+font-size: 12px
+}
+
+table .button{
+width:50px
+}
+
+form{
+width:300px
+}
+
+form label{
+display: block;
+color:#777;
+text-align:left;
+}
+
+form .input{
+border:solid 1px #ccc;
+margin-bottom: 20px;
+overflow: hidden
+}
+
+form .input input,form .input textarea,form .input select{
+border-width: 0;
+padding: 10px;
+width: 100%;
+outline: none
+}
+form .input textarea{
+height:100px
+}
+form .button input{
+background: #333;
+color: #fff;
+padding: 10px 20px;
+border-width: 0;
+cursor: pointer;
+border: none;
+width: 100%;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.recpie-details p, .recpie-details h2{
+margin: 0
+}
+.recpie-details p{
+color:#666;
+font-size: 12px;
+}
+
+.add-recpie form{width:auto}
+.add-recpie form section{width:300px;padding:15px}
+
+@media only screen and (max-width: 768px) {
+#cat-pag .column {
+    max-width: 100%;
+    flex: 50%;
+}
+h1#get-text
+{
+  display: none;
+}
+  /* table */
+  table {
+            width: 100%;
+            }
+            td, th {
+            display: block;
+        }
+        thead{
+            position: absolute;
+            left: -999px;
+            top: -999px;
+        }
+         table td:nth-of-type(1):before {
+            content: 'Position : ';
+        }
+         table td:nth-of-type(2):before {
+            content: 'Technical Support : ';
+        }
+         table td:nth-of-type(3):before {
+            content: 'Sales Support : ';
+        }
+         table td:nth-of-type(4):before {
+            content: 'Fixes : ';
+        }
+         table td:before {
+            display: inline-block;
+            width: 30%;
+            font-weight: bold;
+        }
+  /* end table */
+  /* about page */
+  div#about-banner {
+    display: flex;
+    justify-content: center;
+}
+.member {
+    display: block;
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+}
+div#about-banner img {
+    height: 100%;
+    width: 100%;
+}
+.member {
+    position: relative;
+}
+.member a img {
+    height: 100%;
+    width: 100%;
+}
+.member span {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: #ddd;
+}
+.add-recpie form,.contact,.flex, .container{
+display: block;
+}
+
+header{
+width:auto;
+background: #eee;
+padding: 16px;
+text-align:center;
+background: #00c59e;
+}
+
+.nav-button{
+    display: block;
+    position: absolute;top:10px;width:35px;
+    border:solid 2px #fff;
+    background: transparent;
+}
+.nav:hover nav{
+display: block
+}
+.nav nav{padding: 15px}
+
+.nav-button hr{
+border:solid 1px #fff;    
+}
+header .logo{
+font-size: 20px;
+color:#fff;
+padding-bottom: 0px;
+display: block
+}
+
+header nav{
+display: none
+}
+    nav{
+text-align: left
+}
+    nav ul{
+list-style: none;
+margin: 0;
+padding: 0;
+display: block;
+}
+
+nav li, nav li a{
+display:block !important;
+margin:0;
+color:#fff;
+font-size: 80%;width: auto;
+}
+
+nav li a{
+padding:5px;
+}
+
+nav .active a{
+color:#333
+}
+
+footer{
+background: #00c59e;
+color:#fff;
+width:auto;
+text-align: left
+}
+
+
+.middle{
+width: auto;
+text-align: center
+}
+
+.middle .slider img{
+width:100%;
+
+}
+
+.add-recpie,.recpie-details,.contact section, .recpies, .today-menu, article,footer{
+padding: 16px
+}
+.recpies aside{
+padding: 15px;
+text-align: center;
+display: inline-block;
+}
+    .recpies aside img{width: 100%}
+.recpies aside b{
+display: block;
+padding: 15px
+}
+
+.recpies aside span{
+color:#888;
+font-size:12px
+}
+
+.recpies aside:hover{
+outline:solid 2px #00c59e
+}
+
+article p{
+line-height: 20px;
+text-align: justify
+}
+
+table{width: 100%;
+border:solid 1px #ddd;
+border-bottom-width: 0;
+border-collapse: collapse;
+}
+table td{padding: 10px;
+border-bottom: solid 1px #ddd
+}
+
+table .od{
+background: #f5f5f5
+}
+table .by{
+width:80px
+}
+
+table .img{
+width:30px
+}
+
+table .img img{
+width: 100%;
+}
+
+table .title span{
+display: block;
+color:#666;
+font-size: 12px
+}
+
+table .button{
+width:50px ;
+}
+
+form{
+width:auto
+}
+
+form label{
+display: block;
+color:#777;
+    text-align: left
+}
+
+form .input{
+border:solid 1px #ccc;
+margin-bottom: 20px;
+overflow: hidden
+}
+
+form .input input,form .input textarea{
+border-width: 0;
+padding: 10px;
+width: 100%;
+outline: none
+}
+
+form .button input{
+background: #333;
+color: #fff;
+padding: 10px 0px;
+border-width: 0;
+cursor: pointer;
+    width: 100%
+    border: none;
+    border-radius: 0px 20px 0px 20px;
+}
+    .recpie-details{text-align: left}
+.recpie-details p, .recpie-details h2{
+margin: 0;
+}
+    .recpie-details img{width: 100%}
+    .recpie-details p{
+color:#666;
+font-size: 12px
+}   
+
+    .add-recpie form{width:auto}
+.add-recpie form section{width:auto;padding:0px}
+
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 20px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 20%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.column img {
+  /*margin-top: 8px;*/
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media only screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  #cat-pag .column {
+    flex: 50%;
+    max-width: 100%;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media only screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px){
+  div#about-banner {
+    display: flex;
+    justify-content: center;
+}
+.member {
+    display: block;
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+}
+div#about-banner img {
+    height: 100%;
+    width: 100%;
+}
+.member {
+    position: relative;
+}
+.member a img {
+    height: 100%;
+    width: 100%;
+}
+.member span {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+} /* MEDIA QUERY 1024 ENDS */
+span.desc {
+    top: 50%;
+    position: relative;
+    background: #667;
+    display: block;
+    padding: 25px;
+}
+div.try {
+    position: relative;
+    margin-top: 10px;
+}
+.overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    color: #fff !important;
+    opacity: 0;
+    z-index: 999;
+    /*display: none;*/
+}
+img.zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    border-radius: 30px;
+}
